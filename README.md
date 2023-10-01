@@ -16,7 +16,7 @@ Compiling, Training, and Evaluating the Model:
 - Using the keras_tuner library I was able to search for the best hyperparameters as I was unable to train my model to hit above 73% accuracy during the first 2 optimization attempts
 - The best hyperparameters produced by the kerastuner are: <img width="1177" alt="Screenshot 2023-10-01 at 6 57 03 PM" src="https://github.com/anastasiaskr2000/deep-learning-challenge/assets/131491720/bb9de6ad-9a1e-4a07-80ed-3f39ee3811f2">
 - The highest I was able to train my model to was 74%
-- In order to increase model performance I removed an additonal column from the dataframe (as it contained one unvarying value), narrowed down the cutoff_value, and used a kerastuner search function to perform a number of trials to determine the highest-performing hyperparameters (trial results can be found in the "trials" folder)
+- In order to increase model performance I removed an additonal column from the dataframe (as it contained one unvarying value), narrowed down the cutoff_value, and used a kerastuner search function to perform a number of trials to determine the highest-performing hyperparameters (some of the trial results can be found in the "trials" folder)
 
 ## Summary: 
 
